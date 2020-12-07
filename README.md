@@ -1,5 +1,7 @@
 # Creditas MiniApp - Mobile AtWork
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/71f5f7325dae4187b2d1bc1cd13c3f7d)](https://app.codacy.com/gh/albertplacreditas/testCodacy?utm_source=github.com&utm_medium=referral&utm_content=albertplacreditas/testCodacy&utm_campaign=Badge_Grade)
+
 ## How to install
 
 ### Install tools
