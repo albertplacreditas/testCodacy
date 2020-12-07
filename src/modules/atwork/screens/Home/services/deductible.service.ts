@@ -32,7 +32,7 @@ const handleResponse = (
 export const getDeductibles = async (): Promise<
   IDeductibleTransformed | undefined
 > => {
-  const url = `${Config.ATWORK.API_URL}/deductibles`;
+  const url = `${Config.ATWORK.API_URL}/v2/deductibles`;
   const { session } = CoreService.getInstanceV1();
   return session
     .authenticatedRequest({

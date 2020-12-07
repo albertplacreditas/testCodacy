@@ -1623,7 +1623,7 @@ exports[`Home component should render correctly 1`] = `
                     underlined={false}
                     variant="mockTokenHelveticaParagraphTextSuportRegular"
                   >
-                    ATWORK.HOME.DEDUCTIBLE.TEXT junho
+                    ATWORK.HOME.DEDUCTIBLE.TEXT julho
                   </Text>
                   <View
                     flexDirection="row"

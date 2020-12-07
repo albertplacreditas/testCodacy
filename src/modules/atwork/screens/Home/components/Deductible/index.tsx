@@ -4,7 +4,7 @@ import React from 'react';
 
 import { Config } from '../../../../../../ConfigEnvironment';
 import { i18N } from '../../../../../../CoreService';
-import { getPreviousMonthNameByLocale } from '../../../../../../helpers/date';
+import { getMonthNameByLocale } from '../../../../../../helpers/date';
 import { formatNumberByLocale } from '../../../../../../helpers/number';
 import componentEvents from '../../analytics/events';
 import { IDeductibleTransformed } from '../../interfaces/deductible.interface';
@@ -27,7 +27,7 @@ export const Deductible = ({
       title={i18N.t('ATWORK.HOME.DEDUCTIBLE.TITLE')}
       textLimit={`${i18N.t(
         'ATWORK.HOME.DEDUCTIBLE.TEXT',
-      )} ${getPreviousMonthNameByLocale(deductible.dueDate)}`}
+      )} ${getMonthNameByLocale(deductible.dueDate)}`}
       valueLimit={formatNumberByLocale(deductible.totalDiscounts)}
       isFullWidth={true}
       onPress={() => {
